@@ -1,0 +1,7 @@
+docopt==0.6.1
+google-api-python-client==1.2
+httplib2==0.9
+python-gflags==2.0
+pytz==2014.3
+termcolor==1.1.0
+wsgiref==0.1.2
