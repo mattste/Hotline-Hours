@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
+from pip.req import parse_requirements
+
+# parse_requirements() returns generator of pip.req.InstallRequirement objects
+install_reqs = parse_requirements('requirements.txt')
+
+# reqs is a list of requirements
+reqs = [str(ir.req) for ir in install_reqs]
 
 setup(name='Hot-Hours',
       version='1.0',
@@ -8,13 +15,5 @@ setup(name='Hot-Hours',
       author='Matthew Stewart',
       author_email='mattste@umich.edu',
       url='',
-      packages=[
-      	"docopt",
-      	"google-api-python-client",
-      	"httplib2",
-      	"python-gflags",
-      	"pytz",
-      	"termcolor",
-      	"wsgiref",
-      ],
+      install_requires=reqs,
      )
