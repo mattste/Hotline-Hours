@@ -28,7 +28,7 @@ Installation
 --------------
 
 ```sh
-pip install git+git://github.com/mattste/hot-hours.git
+pip install git+git://github.com/mattste/Hotline-Hours.git
 ```
 
 #### Configure API keys
