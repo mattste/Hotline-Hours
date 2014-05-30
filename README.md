@@ -28,7 +28,7 @@ Installation
 --------------
 
 ```sh
-git clone git+git://github.com/mattste/Hotline-Hours.git
+git clone https://github.com/mattste/Hotline-Hours.git
 python setup.py install
 ```
 
