@@ -1,4 +1,5 @@
 .DS_Store
 *.pyc
+calendar.dat
 client_secrets.json
 google_secrets.json

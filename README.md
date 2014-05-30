@@ -28,7 +28,8 @@ Installation
 --------------
 
 ```sh
-pip install git+git://github.com/mattste/Hotline-Hours.git
+git clone git+git://github.com/mattste/Hotline-Hours.git
+python setup.py install
 ```
 
 #### Configure API keys
@@ -47,13 +48,13 @@ Usage
 
 To find an individual's total hours by uniqname, run the following:
 ```sh
-python script.py hours uniqname startDate endDate
+python script.py uniqname startDate endDate
 ```
 where startDate and endDate are of the form MM-DD-YY
 
 To find a list of individuals' total hours by uniqnames, run the following:
 ```sh
-python script.py hours --list="sample_uniqnames.txt" startDate endDate
+python script.py --list="sample_uniqnames.txt" startDate endDate
 ```
 See given sample_uniqnames.txt for proper format.
 
