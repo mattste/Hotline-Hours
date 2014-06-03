@@ -49,6 +49,11 @@ python setup.py install
 Usage
 --------------
 
+First, activate the virtualenv:
+```sh
+source hotline-hours-venv/bin/activate
+```
+
 To find an individual's total hours by uniqname, run the following:
 ```sh
 python script.py uniqname startDate endDate
