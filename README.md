@@ -66,6 +66,11 @@ python script.py --list="sample_uniqnames.txt" startDate endDate
 ```
 See given sample_uniqnames.txt for proper format.
 
+When you're done, deactivate the virtualenv by running:
+```sh
+deactivate
+```
+
 License
 ----
 
