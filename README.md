@@ -28,7 +28,10 @@ Installation
 --------------
 
 ```sh
+virtualenv hotline-hours-venv
+source hotline-hours-venv/bin/activate
 git clone https://github.com/mattste/Hotline-Hours.git
+cd Hotline-Hours
 python setup.py install
 ```
 
